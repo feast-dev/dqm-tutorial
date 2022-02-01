@@ -1,0 +1,11 @@
+registry: data/registry.db
+project: dqm_tutorial
+provider: local
+online_store:
+  type: sqlite
+  path: data/online_store.db
+offline_store:
+  type: file
+flags:
+  alpha_features: true
+  on_demand_transforms: true
